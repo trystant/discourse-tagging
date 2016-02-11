@@ -41,9 +41,7 @@ export default Ember.Component.extend({
     }
   }.property('firstCategory', 'secondCategory'),
 
-  allTagsLabel: function() {
-    return I18n.t("tagging.selector_all_tags");
-  }.property('tag'),
+  allTagsLabel: "All Tags",
 
   dropdownButtonClass: function() {
     var result = 'badge-category category-dropdown-button';
